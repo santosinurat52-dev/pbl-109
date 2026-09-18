@@ -22,15 +22,18 @@
       <form action="login.php" method="POST">
       <h2>Masuk ke Akun</h2>
       <p class="muted">Khusus mahasiswa Politeknik Negeri Batam.</p>
-        <label>Email atau NIM</label>
-        <input type="text" name="emailnim" placeholder="Masukkan email atau NIM" required>
+        <label>Email</label>
+        <input type="text" name="emailnim" placeholder="Masukkan Email" required>
         <label>Password</label>
         <input type="password" name="password" placeholder="Masukkan password" required>
-        <button class="primary-btn" type="submit">Masuk</button>
+        <p class="primary-btn">
+          <a type="submit" href="dashboard.html">Masuk</a>
+        </p>
         <p class="login-note">Belum punya akun? <a href="register.html" id="registerLink">Daftar di sini</a></p>
         <div class="divider"><span>atau</span></div>
-        <button class="outline-btn" id="demoLogin">Masuk sebagai Demo</button>
-        <p ></p>
+        <p class="demo-button">
+          <a href="demo.html">Masuk Sebagai Demo</a>
+        </p>
       </form>
     </div>
   </div>
