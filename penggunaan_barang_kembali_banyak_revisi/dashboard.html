@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penggunaan Barang Kembali - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div >
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark small">↻</div>
+                <div><strong>Penggunaan</strong><br><strong>Barang Kembali</strong></div>
+            </div>
+            <nav>
+                <button class="nav-item active" data-page="dashboard">⌂ <span>Beranda</span></button>
+                <button class="nav-item" data-page="share">＋ <span>Bagikan Barang</span></button>
+                <button class="nav-item" data-page="exchange">⇄ <span>Tukar Barang</span></button>
+                <button class="nav-item" data-page="donate">♡ <span>Donasi Barang</span></button>
+                <button class="nav-item" data-page="chat">◌ <span>Chat</span></button>
+                <button class="nav-item" data-page="profile">♙ <span>Profil</span></button>
+                <button class="nav-item" data-page="favorites">♡ <span>Favorit</span></button>
+                <button class="nav-item" data-page="history">▤ <span>Riwayat Aktivitas</span></button>
+            </nav>
+            <div class="sidebar-bottom"><button class="nav-item" data-page="settings">⚙
+                    <span>Pengaturan</span></button><button class="nav-item logout" id="logoutBtn">↪
+                    <span>Keluar</span></button></div>
+        </aside>
+        <main class="main">
+            <header class="topbar">
+                <div class="search-wrap">⌕ <input id="searchInput"
+                        placeholder="Cari barang, kategori, atau pengguna..." /></div>
+                <div class="user-mini"><span class="notification">♧</span>
+                    <div class="avatar">N</div>
+                    <div><strong id="userName">NIM123456</strong><small>Mahasiswa Polibatam</small></div>
+                </div>
+            </header>
+            <section id="pageContent"></section>
+        </main>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-card"><button class="modal-close" id="closeModal">×</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+</body>
+</html>
