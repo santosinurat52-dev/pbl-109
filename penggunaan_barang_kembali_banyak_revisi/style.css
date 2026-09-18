@@ -3,10 +3,10 @@
 }
 
 :root {
-    --pink: #e67ca3;
-    --pink-dark: #bd4d79;
-    --pink-light: #fff0f5;
-    --pink-soft: #ffe1eb;
+    --blue: #2b48ee;
+    --blue-dark: #2b48ee;
+    --blue-light: #fff0f5;
+    --blue-soft: #ffe1eb;
     --text: #34313a;
     --muted: #98929d;
     --line: #f0dce4;
@@ -23,6 +23,19 @@ body {
 
 .hidden {
     display: none;
+}
+
+.btn-masuk {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-masuk:hover {
+    background-color: white;
 }
 
 button,
@@ -52,11 +65,12 @@ button {
     text-align: center
 }
 
+
 .brand-mark {
     width: 70px;
     height: 70px;
     border-radius: 22px;
-    background: var(--pink);
+    background: green;
     color: white;
     display: grid;
     place-items: center;
@@ -76,21 +90,21 @@ button {
 .login-illustration h1 {
     font-size: 28px;
     line-height: 1.35;
-    color: #b34f79
+    color: #4aa6df
 }
 
 .login-illustration p {
-    color: #9e7f8c
+    color: #56a2bc
 }
 
 .illustration-box {
     font-size: 130px;
-    color: #f4a7c2;
+    color: green;
     margin-top: 35px
 }
 
 .login-card {
-    background: #fff;
+    background: #69e1d7;
     border: 1px solid #f5dce7;
     border-radius: 22px;
     padding: 38px;
@@ -100,7 +114,7 @@ button {
 
 .eyebrow {
     font-size: 11px;
-    color: var(--pink);
+    color: var(--blue);
     font-weight: 700;
     letter-spacing: 1px
 }
@@ -135,10 +149,9 @@ button {
 
 .login-card input:focus,
 .field input:focus {
-    border-color: var(--pink)
+    border-color: var(--blue)
 }
 
-.primary-btn,
 .outline-btn {
     width: 100%;
     padding: 13px;
@@ -148,22 +161,27 @@ button {
 }
 
 .primary-btn {
-    background: var(--pink);
-    color: #fff
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
 }
 
 .primary-btn:hover {
-    background: var(--pink-dark)
+    background-color: white;
 }
 
 .outline-btn {
     background: #fff;
-    border: 1px solid var(--pink);
-    color: var(--pink)
+    border: 1px solid var(--blue);
+    color: var(--blue)
 }
 
 a {
-    color: var(--pink);
+    color: var(--blue);
     text-decoration: none
 }
 
@@ -678,7 +696,7 @@ a {
     padding: 10px 20px;
     height: auto;
     width: 50px;
-    margin-left: 75px;
+    margin-left: 63px;
     cursor: pointer;
     border-radius: 8px;
     background-color: pink;
